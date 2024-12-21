@@ -5,6 +5,7 @@
 .logo{
     color: midnightblue;
     margin-bottom: 5%;
+    font-size: 25px;
 }
 .heading{
     font-size: 60px;
@@ -60,4 +61,45 @@ span{
    
 }
 
+footer{
+    text-align: end;
+    color: gray;
+}
 
+
+@media (max-width:680px){
+.logo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 30px;
+   margin-bottom: 10%; 
+}
+
+.mid-section>p, .card > p{
+
+font-size: 16px;
+text-align:justify ;
+text-justify: auto;
+margin-bottom: 10%;
+}
+
+.mid-section>p{
+    width: 90%;
+}
+
+.card{
+    width: 90%;
+
+    
+}
+
+.left-card-images, .right-card-images{
+    
+   
+
+}
+
+}
